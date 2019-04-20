@@ -1,0 +1,6 @@
+[[action]]
+Index="index"
+Insert="insert"
+Delete="delete"
+Query="query"
+Query2="query2"

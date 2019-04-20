@@ -1,0 +1,26 @@
+# 过滤器设置
+
+[[filter]]
+name="ServFilter"
+
+# 启动器，用于启动时执行
+[[starter]]
+StartRun=1            # 格式：[方法名]=[等级]   ， 说明：设置方法执行等级，1为最高级，99为最低级，最高级先执行。
+
+# 404页面设置
+
+[[404]]
+name="resource/404.html"
+
+# 500页面设置
+
+[[500]]
+name="resource/500.html"
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔
+
+[[index]]
+name="resource/index.html"

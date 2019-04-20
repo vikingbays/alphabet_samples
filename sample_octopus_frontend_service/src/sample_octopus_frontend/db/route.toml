@@ -1,0 +1,17 @@
+[[action]]
+Index="index"
+Insert="insert"
+Delete="delete"
+Query="query"
+Query2="query2"
+
+[[gml]]
+db_index="view/db_index.gml"
+db_query="view/db_query.gml"
+db_insert="view/db_insert.gml"
+db_delete="view/db_delete.gml"
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔

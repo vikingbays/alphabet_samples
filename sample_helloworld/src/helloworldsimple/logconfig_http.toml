@@ -1,0 +1,12 @@
+[[filters]]
+enabled="true"
+tag="file"
+type="file"
+level="INFO"   # �������� (:?FINEST|FINE|DEBUG|TRACE|INFO|WARNING|ERROR)
+format="[%D %T] [%L] %M "
+
+filename="${project}/logs/http.log"  # ���Դ����� ${project}/logs/test.log
+rotate="false"
+rotateMaxSize="0"    #\d+[KMG]? Suffixes are in terms of 2**10
+rotateMaxLines="0"   #\d+[KMG]? Suffixes are in terms of thousands
+rotateDaily="false"

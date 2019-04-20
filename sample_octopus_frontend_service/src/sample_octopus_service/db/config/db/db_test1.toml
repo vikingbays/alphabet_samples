@@ -1,0 +1,58 @@
+[[db]]
+name="createUserTable"
+sql="""
+    CREATE TABLE alphabet_db_user1
+    (
+      usrid integer,
+      name varchar(100),
+      nanjing boolean,
+      money numeric(20,2)
+    )
+    """
+
+
+[[db]]
+name="dropUserTable"
+sql="""
+    drop TABLE alphabet_db_user1
+    """
+
+
+[[db]]
+name="insertUser"
+sql="""
+  insert into alphabet_db_user1(usrid,name,nanjing,money) values(#{uSrid},'${name}',${nanjing},#{money} ) 
+    """
+
+[[db]]
+name="deleteUser"
+sql="""
+  delete from alphabet_db_user1
+    """
+
+[[db]]
+name="selectUser"
+sql="""
+  select * from alphabet_db_user1 where usrid>#{minuSrid} and usrid<${maxusrID}
+    """
+
+
+[[db]]
+name="selectUserCount"
+sql="""
+  select count(1) from alphabet_db_user1 
+    """
+
+
+[[db]]
+name="existUser"
+sql="""
+  select count(1) from pg_class where relname = 'alphabet_db_user1'
+    """
+sql_mysql="""
+  select count(1) from information_schema.TABLES WHERE table_name ='alphabet_db_user1'
+    """
+
+
+
+

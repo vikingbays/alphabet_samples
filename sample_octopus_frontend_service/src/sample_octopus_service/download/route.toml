@@ -1,0 +1,7 @@
+# 如果设置 Action1Run1="/app3/action1run1" 那么不需要加appname
+# 如果设置 Action1Run1="action1run1" 那么需要加appname ，判断依据是否／开始
+
+# download 的处理
+
+[[action]]
+DoDownload="do_download"

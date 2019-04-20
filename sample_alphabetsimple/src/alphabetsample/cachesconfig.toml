@@ -1,0 +1,10 @@
+[[caches]]
+name="cache1"
+dataSourceName="redis://user:abcdef123456@127.0.0.1:6379/1"
+maxPoolSize=5
+
+
+#[[caches]]
+#name="cache2"
+#dataSourceName="redis://user:abcdef123456@/Users/vikingbays/golang/AlphabetwebProject/redisserv/redis.sock/2"
+#maxPoolSize=10

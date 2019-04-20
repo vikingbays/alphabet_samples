@@ -1,0 +1,22 @@
+# 过滤器设置
+
+[[filter]]
+name="ServFilter"
+
+# 404页面设置
+
+[[404]]
+name="resource/404.html"
+
+# 500页面设置
+
+[[500]]
+name="resource/500.html"
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔
+
+[[index]]
+name="resource/index.html"

@@ -1,0 +1,9 @@
+[[msg]]
+msgctxt="helloworld"   # 消息上下文
+msgid="许愿"           # 消息编码
+msgstr="Hope..."   # 消息内容
+
+[[msg]]
+msgctxt="helloworld"   # 消息上下文
+msgid="礼物"           # 消息编码
+msgstr="gift"   # 消息内容

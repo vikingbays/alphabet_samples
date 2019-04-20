@@ -1,0 +1,14 @@
+# json 的处理
+
+[[action]]
+JsonInfo="jsoninfo/{min}/{max}"
+JsonIndex="jsonindex"
+
+[[gml]]
+json_index="view/json_index.gml"
+
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔

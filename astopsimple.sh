@@ -1,0 +1,1 @@
+go run /Users/vikingbays/golang/AlphabetwebProject/alphabetweb/src/alphabet/cmd/abserver.go -stop "/Users/vikingbays/golang/AlphabetwebProject/sample_alphabetsimple"

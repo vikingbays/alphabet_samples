@@ -1,0 +1,17 @@
+# 如果设置 Action1Run1="/app3/action1run1" 那么不需要加appname
+# 如果设置 Action1Run1="action1run1" 那么需要加appname ，判断依据是否／开始
+
+# helloworld 的处理
+
+[[action]]
+HelloWorld="helloworld"
+
+[[gml]]
+helloworld_index="view/helloworld_index.gml"
+helloworld_gift="view/helloworld_gift.gml"
+
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔

@@ -1,0 +1,19 @@
+# cache测试 的处理
+
+[[action]]
+SetCache="set_cache"
+GetCache="get_cache"
+ClearCache="clear_cache"
+
+[[gml]]
+cache_setting="view/cache_setting.gml"
+cache_getting="view/cache_getting.gml"
+cache_clear="view/cache_clear.gml"
+
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔
+
+

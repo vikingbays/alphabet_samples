@@ -1,0 +1,17 @@
+# session测试 的处理
+
+[[action]]
+SetSession="set_session"
+GetSession="get_session"
+ClearSession="clear_session"
+
+[[gml]]
+session_setting="view/session_setting.gml"
+session_getting="view/session_getting.gml"
+session_clear="view/session_clear.gml"
+
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔

@@ -1,0 +1,32 @@
+[[action]]
+HelloWorld="helloworld"
+
+[[gml]]
+helloworld_index="view/helloworld_index.gml"
+helloworld_gift="view/helloworld_gift.gml"
+
+# 静态资源加载
+
+[[static]]
+name="resource/"   # 如果是多个，逗号分隔
+
+
+# 404页面设置
+
+[[404]]
+name="resource/404.html"
+
+# 500页面设置
+
+[[500]]
+name="resource/500.html"
+
+
+#[[index]]
+#name="helloworld"
+
+[[rootindex]]
+name="resource/index.html"
+
+[[index]]
+name="helloworld"
